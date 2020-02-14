@@ -1,0 +1,27 @@
+@mixin transition($what: all, $time: 0.2s, $show: ease-in-out) 
+{
+    -moz-transition:    $what $time $show;
+    -o-transition:      $what $time $show;
+    -webkit-transition: $what $time $show;
+    transition:         $what $time $show;
+}
+@mixin box-shadow($x-axis: 0, $y-axis: 1px, $blur: 2px, $color: $default) 
+{
+    box-shadow: $x-axis $y-axis $blur $color;
+    -moz-box-shadow: $x-axis $y-axis $blur $color;
+    -o-box-shadow: $x-axis $y-axis $blur $color;
+    -webkit-box-shadow: $x-axis $y-axis $blur $color;
+}
+@mixin text-shadow($x-axis: 0, $y-axis: 1px, $blur: 2px, $color: $default) 
+{
+    text-shadow: $x-axis $y-axis $blur $color;
+    -moz-text-shadow: $x-axis $y-axis $blur $color;
+    -o-text-shadow: $x-axis $y-axis $blur $color;
+    -webkit-text-shadow: $x-axis $y-axis $blur $color;
+}
+@mixin border-radius($radius) {
+	border-radius: $radius;
+	-webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -o-border-radius: $radius;
+}

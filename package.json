@@ -17,7 +17,16 @@
   },
   "homepage": "https://github.com/mobiosolutions/frontend-boilerplate#readme",
   "dependencies": {
-    "grunt": "^1.0.4",
+    "grunt-minified": "0.0.6",
     "remixicon": "^2.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^3.1.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-sass": "^3.1.0",
+    "node-sass": "^4.13.1"
   }
 }

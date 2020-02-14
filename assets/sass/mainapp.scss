@@ -1,0 +1,127 @@
+@import "helper/variable";
+@import "helper/border";
+@import "helper/button";
+@import "helper/mixins";
+@import "layout/header";
+@import "layout/fooetr";
+@import "pages/home";
+@import "helper/responsive";
+@import "helper/common";
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100%;
+  line-height: 1.3;
+  background-color: $white-color;
+  color: $black-color;
+}
+p {
+  font-size: $font-size + 2;
+  color: $theme-text-color;
+}
+h1, .h1{
+	font-size: $font-size+22;
+}
+h2, .h2{
+	font-size: $font-size+18;
+}
+h3, .h3{
+	font-size: $font-size+14;
+}
+h4, .h4{
+	font-size: $font-size+10;
+}
+h5, .h5{
+	font-size: $font-size+6;
+}
+h6, .h6	{
+	font-size: $font-size+2;
+}
+.badge {
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  color: $white-color;
+  font-size: $font-size - 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -5px;
+  right: auto;
+  margin-left: 20px;
+}
+.badge-primery {
+  background: $primary-color;
+}
+.badge-dark-blue {
+  background: $dark-blue-color;
+}
+.badge-accent {
+  background: $yellow-color;
+}
+.badge-light {
+  background: $light-color;
+}
+.badge-red {
+  background: $red-color;
+}
+.badge-green {
+  background: $green-color;
+}
+.badge-white {
+  background: $white-color;
+}
+.badge-black {
+  background: $black-color;
+}
+.bg-primary{
+	background: $primary-color;
+}
+.bg-secondary{
+	background: $dark-blue-color;
+}
+.bg-success{
+	background: $green-color;
+}
+.bg-danger{
+	background: $red-color;
+}
+.bg-warning{
+	background: $yellow-color;
+}
+.bg-light{
+	background: $light-color !important;
+}
+.bg-dark{
+	background: $black-color;
+}
+.bg-theme{
+	background: $text-color;
+}
+
+.text-primary{
+	color: $primary-color;
+}
+.text-secondary{
+	color: $dark-blue-color !important;
+}
+.text-success{
+	color: $green-color;
+}
+.text-danger{
+	color: $red-color;
+}
+.text-warning{
+	color: $yellow-color;
+}
+.text-light{
+	color: $light-color;
+}
+.text-dark{
+	color: $black-color;
+}
+.text-theme
+{
+	color: $theme-text-color;
+}
